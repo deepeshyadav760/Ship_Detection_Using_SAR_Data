@@ -7,14 +7,14 @@ This repository implements an end-to-end pipeline for ship detection using Senti
 ## Repository Structure
 
 ```
-GALAXEYE_SHIP_DETECTION/
+SHIP_DETECTION/
 ├── data/
 │   ├── gee_export/
 │   │   └── sentinel1_vv_panama.tif     # Sentinel-1 SAR export from GEE (not committed)
 │   ├── raw/                             # Original SSDD dataset
 │   ├── yolo/                            # SSDD converted to YOLO format
 │   └── ship.yaml                        # YOLO dataset configuration
-├── GalaxEye_venv/                       # Local virtual environment (ignored)
+├── SAR_venv/                       # Local virtual environment (ignored)
 ├── report/                              # Final report (PDF)
 ├── results/
 │   ├── label_check/                     # Label visualization sanity checks
@@ -95,14 +95,14 @@ GALAXEYE_SHIP_DETECTION/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/deepeshyadav760/GALAXEYE_SHIP_DETECTION.git
-cd GALAXEYE_SHIP_DETECTION
+git clone https://github.com/deepeshyadav760/SAR_SHIP_DETECTION.git
+cd SAR_SHIP_DETECTION
 ```
 
 2. Create and activate virtual environment:
 ```bash
-python -m venv GalaxEye_venv
-source GalaxEye_venv/bin/activate  # On Windows: GalaxEye_venv\Scripts\activate
+python -m venv SAR_venv
+source SAR_venv/bin/activate  # On Windows: SAR_venv\Scripts\activate
 ```
 
 3. Install dependencies:
