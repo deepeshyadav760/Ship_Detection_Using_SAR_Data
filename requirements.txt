@@ -1,0 +1,15 @@
+pillow
+numpy
+opencv-python
+matplotlib
+rasterio
+shapely
+tqdm
+
+# Deep Learning
+torch
+ultralytics
+
+# Google Earth Engine
+earthengine-api
+geemap

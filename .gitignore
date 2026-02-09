@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+GalaxEye_venv/
+.zip
+.pdf
+.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large / reproducible)
+data/gee_exports/*.tif
+data/gee_exports/*.tiff
+
+# YOLO training artifacts
+runs/
+results/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
